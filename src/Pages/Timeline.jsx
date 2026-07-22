@@ -2,7 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import "../Styles/Timeline.css";
+import "../Styles/timeline.css";
 
 function Timeline() {
   const navigate = useNavigate();

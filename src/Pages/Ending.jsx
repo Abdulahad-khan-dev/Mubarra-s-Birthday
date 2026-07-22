@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import "../Styles/Ending.css";
+import "../Styles/ending.css";
 
 export default function Ending() {
 

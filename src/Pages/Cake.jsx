@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import "../Styles/Cake.css";
+import "../Styles/cake.css";
 
 function Cake() {
   const navigate = useNavigate();

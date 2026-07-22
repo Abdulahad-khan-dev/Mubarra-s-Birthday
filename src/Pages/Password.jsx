@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import "../Styles/Password.css";
+import "../Styles/password.css";
 
 const PASSWORD = "5555";
 
