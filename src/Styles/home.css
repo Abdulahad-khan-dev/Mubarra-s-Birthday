@@ -1,0 +1,72 @@
+.home-page{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#ffd6e8,#fff2f7);
+overflow:hidden;
+position:relative;
+}
+
+.home-card{
+width:430px;
+max-width:90%;
+background:white;
+padding:40px;
+border-radius:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+text-align:center;
+position:relative;
+min-height:550px;
+}
+
+.home-card h1{
+color:#ff2d75;
+margin-bottom:15px;
+}
+
+.home-card p{
+color:#666;
+margin-bottom:20px;
+line-height:1.7;
+}
+
+.cute-image{
+width:220px;
+margin:15px auto;
+display:block;
+}
+
+.button-group{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+}
+
+.yes-btn,
+.no-btn{
+    width:170px;
+    height:55px;
+    border:none;
+    border-radius:40px;
+    cursor:pointer;
+    font-size:22px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.yes-btn{
+    background:#ff2d75;
+    color:#fff;
+}
+
+.no-btn{
+    background:#d9d9d9;
+    color:#333;
+}
+
+.yes-btn:hover,
+.no-btn:hover{
+    transform:translateY(-3px);
+}

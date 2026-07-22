@@ -1,0 +1,23 @@
+@import "./Styles/Welcome.css";
+@import "./Styles/Password.css";
+@import "./Styles/Home.css";
+@import "./Styles/NoPage.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #ffe6f0;
+  overflow-x: hidden;
+}

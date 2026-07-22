@@ -1,0 +1,12 @@
+.ending-page{min-height:100vh;background:linear-gradient(180deg,#ffd6e7,#fff);display:flex;flex-direction:column;align-items:center;padding:40px 20px;overflow:hidden;position:relative}
+
+.title{font-size:48px;color:#ff2d75;animation:fade 1s}
+.photo-wrap{margin:25px 0}
+.hug-photo{width:200px;max-width:50vw;border-radius:24px;border:8px solid #fff;box-shadow:0 15px 35px rgba(0,0,0,.2);animation:beat 1.6s infinite}
+.card{max-width:760px;background:rgba(255,255,255,.55);backdrop-filter:blur(12px);padding:30px;border-radius:24px;text-align:center;box-shadow:0 15px 30px rgba(0,0,0,.12)}
+.card h2{color:#ff2d75}.card p{line-height:1.9;font-size:18px;color:#444}.footer{margin-top:25px;font-weight:bold;color:#ff2d75}
+.heart{position:absolute;bottom:-40px;font-size:24px;animation:rise 10s linear infinite}
+@keyframes rise{from{transform:translateY(0);opacity:1}to{transform:translateY(-120vh);opacity:0}}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+@keyframes fade{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:none}}
+@media(max-width:768px){.title{font-size:34px}.card p{font-size:16px}}
