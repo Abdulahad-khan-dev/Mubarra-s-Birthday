@@ -1,6 +1,6 @@
-@import "./Styles/Welcome.css";
+@import "./Styles/welcome.css";
 @import "./Styles/Password.css";
-@import "./Styles/Home.css";
+@import "./Styles/home.css";
 @import "./Styles/NoPage.css";
 
 * {
